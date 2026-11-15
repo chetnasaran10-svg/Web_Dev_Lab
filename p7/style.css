@@ -1,0 +1,38 @@
+:root {
+    --main-color: #1e293b;
+    --text-color: #334155;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    color: var(--text-color);
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--main-color);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.large {
+    font-size: 25px;
+}
+
+.btn {
+    background: #1e293b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
